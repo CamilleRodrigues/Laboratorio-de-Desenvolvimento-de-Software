@@ -1,0 +1,15 @@
+- Java Swing:
+  - Para criar interface gráficas de usuário (GUIs);
+  - Comportamento visual atraentes e interativos;
+  - Java: portabilidade;
+  - Utiliza conexão com banco de dados.
+  
+  - Vantagens:
+    - Plataforma independente;
+    - Componentes personalizáveis;
+    - Vasta gama de componentes;
+    - Aplicações responsivas e rápidas.
+  - Desvantagens:  
+    - Incompatibilidade de versões;
+    - Desempenho mais lento;
+    - Falta de recursos modernos.
