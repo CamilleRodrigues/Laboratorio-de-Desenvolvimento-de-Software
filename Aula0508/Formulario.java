@@ -129,9 +129,12 @@ public class Formulario extends javax.swing.JFrame {
     private void btnConverterActionPerformed(java.awt.event.ActionEvent evt) {                                             
         JOptionPane.showMessageDialog(null, "A temperatura " + txtFahrenheit.getText() + " Fahrenheit será convertida para Celsius!");
         double fahrenheit;
+        DecimalFormat df = new DecimalFormat("0.00");
         fahrenheit = Double.parseDouble(txtFahrenheit.getText());
         double celsius;
         celsius = (fahrenheit - 32) * 5 / 9;
+        String resultado = String.valueOf(celsius);
+        resultado = df.format(resultado);
         txtCelsius.setText(String.valueOf(celsius));
         //txtCelsius.setText(celsius + "");
         txtCelsius.setText(txtCelsius.getText());
