@@ -1,0 +1,2 @@
+- Java Swing + Banco de Dados
+- MySQL + NetBeans
